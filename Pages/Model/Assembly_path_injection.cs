@@ -1,11 +1,12 @@
 using System;
 using System.Web;
 using System.Reflection;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
-public class AssemblyPathInjectionHandler : IHttpHandler {
-  public void ProcessRequest(HttpContext ctx) {
-    string assemblyPath = ctx.Request.QueryString["assemblyPath"];
 
+public class AssemblyPathInjectionHandler : PageModel  {
+  public void ProcessRequest() {
+    string assemblyPath = Request.Query["assemblyPath"];
     // BAD: Load assembly based on user input
     var badAssembly = Assembly.LoadFile(assemblyPath);
 
