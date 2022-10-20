@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 public class AssemblyPathInjectionHandler : PageModel  {
   public void ProcessRequest() {
-    string assemblyPath1 = Request.Query["assemblyPath"];
+    string assemblyPath = Request.Query["assemblyPath"];
     // BAD: Load assembly based on user input
     var badAssembly = Assembly.LoadFile(assemblyPath1);
 
