@@ -77,5 +77,7 @@ jobs:
         with:
           # Additional arguments to the sonarcloud scanner
           args: # optional
-          # Set the sonar.projectBaseDir analysis property
-          projectBaseDir: # optional, default is .
+            # Set the sonar.projectBaseDir analysis property
+            #projectBaseDir: # optional, default is .
+            -Dsonar.projectKey=houssamkhalifeh_CodeQL
+            -Dsonar.organization=houssamkhalifehsonarkey            
