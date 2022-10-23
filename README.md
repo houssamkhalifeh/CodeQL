@@ -8,4 +8,6 @@ A repository containing code examples to be analyzed by CodeQL
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=houssamkhalifeh_CodeQL&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=houssamkhalifeh_CodeQL)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=houssamkhalifeh_CodeQL&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=houssamkhalifeh_CodeQL)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=houssamkhalifeh_CodeQL&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=houssamkhalifeh_CodeQL)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=houssamkhalifeh_CodeQL&metric=bugs)](https://sonarcloud.io/summary/new_code?id=houssamkhalifeh_CodeQL)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=houssamkhalifeh_CodeQL&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=houssamkhalifeh_CodeQL)
 
